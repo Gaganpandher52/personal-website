@@ -1,13 +1,13 @@
 const express = require('express');
 const axios = require('axios');
 
-const app = express();
+const App = express();
 
 // app.use(cors());
 
 const PORT = process.env.PORT || 8080;
 
-app.listen(PORT,() => console.log(`Listening on PORT ${PORT}`))
+App.listen(PORT,() => console.log(`Listening on PORT ${PORT}`))
 
 if(process.env.NODE_ENV ==='production'){
   App.use(Express.static('client/build'));
