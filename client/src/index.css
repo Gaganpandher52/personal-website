@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.app-container-main{
+  background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+}
+
+.main-container{
+  background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+  overflow: hidden;
+  background-color: #333;
+
+}
+.main-container a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.signature {
+  float: right;
+  color: #f2f2f2;
+  margin-right: 10px;
+}
+.navbar-image{
+  float: left;
+  margin: 9px auto auto 9px;
+  
+}
+.navbar-image-right{
+  float: right;
+  margin: 9px 5px 9px auto;
+}
+
+.app-container-full{
+  background-color: black;
+}

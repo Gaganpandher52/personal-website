@@ -8,7 +8,6 @@ class Header extends Component {
     return (
       <div className='main-container'>
         <div>
-          
           <img className='navbar-image' src={camera}></img>
           <a class="active" href="#home">Home</a>
           <a href="#news">Projects</a>
@@ -17,9 +16,6 @@ class Header extends Component {
           <p className='signature'>Made by Gaganpreet</p>
           <img className='navbar-image-right' src={keyboard}></img>
         </div>
-
-
-        
       </div>
     );
   }
