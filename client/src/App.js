@@ -40,8 +40,8 @@ class App extends Component{
 
     return (
         <div className="app-container-main">
-        {/* <Header/> */}
-        <TopBar styles={styles}/>
+        <Header/>
+        {/* <TopBar styles={styles}/> */}
         
         </div>
     );

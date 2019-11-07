@@ -47,8 +47,7 @@ const TopBar = ({ styles }) => {
         <span>{`Home`}</span>
         <span>{`Home`}</span>
         
-      App
-      <span>{`⚙️`}</span>
+       
       
     </div>
   );
