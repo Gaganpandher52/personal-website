@@ -41,7 +41,7 @@ class App extends Component{
     return (
         <div className="app-container-main">
         <Header/>
-        {/* <TopBar styles={styles}/> */}
+        <TopBar styles={styles}/>
         
         </div>
     );
