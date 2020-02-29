@@ -1,12 +1,11 @@
 // import React from 'react';
 import React, { Component } from "react";
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/Header'
-import TopBar from './components/TopBar'
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./components/Header";
+import TopBar from "./components/TopBar";
 
-
-class App extends Component{
+class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -30,7 +29,7 @@ class App extends Component{
 
     this.setState({ windowWidth, windowHeight });
   }
-  render(){
+  render() {
     const styles = {
       white: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
       black: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
@@ -39,11 +38,10 @@ class App extends Component{
     };
 
     return (
-        <div className="app-container-main">
-        <Header/>
-        <TopBar styles={styles}/>
-        
-        </div>
+      <div className="app-container-main">
+        <Header />
+        <TopBar styles={styles} />
+      </div>
     );
   }
 }
