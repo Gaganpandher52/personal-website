@@ -8,7 +8,7 @@ class Header extends Component {
     return (
       <div className="main-container">
         <div>
-          <img className="navbar-image" src={camera}></img>
+          {/* <img className="navbar-image" src={camera}></img> */}
           <a class="active" href="#home">
             Home
           </a>
