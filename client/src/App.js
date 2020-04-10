@@ -18,7 +18,7 @@ class App extends Component {
 
     return (
       <div className="app-container-main">
-        {/* <Header /> */}
+        <Header />
         <TopBar />
       </div>
     );
