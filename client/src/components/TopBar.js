@@ -11,7 +11,7 @@ const TopBar = ({  }) => {
           <img className="navbar-image" src={camera}></img>
         </span>
         <span>
-          <a class="active" href="#home">
+          <a class="active" href="#home" >
             Home
           </a>
         </span>

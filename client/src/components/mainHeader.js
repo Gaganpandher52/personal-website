@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import './mainHeader.css'
 
-class mainHeader extends Component {
+class MainHeader extends Component {
   render() {
     return (
       <div className='main'>
+
+        hellonsdfhjks h
         
       </div>
     );
   }
 }
 
-export default mainHeader;
+export default MainHeader;
