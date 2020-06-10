@@ -1,6 +1,9 @@
 import React from "react";
 import camera from "../images/camera.png";
 import keyboard from "../images/keyboard.png";
+import scrollToComponent from 'react-scroll-to-component';
+import Mainheader from './MainHeader'
+import Projects from './Projects'
 const TopBar = ({  }) => {
   
 
