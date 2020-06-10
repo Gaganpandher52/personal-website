@@ -4,7 +4,7 @@ import './mainHeader.css'
 class Projects extends Component {
   render() {
     return (
-      <div className='main-projects'>
+      <div className='main-projects' id='projects'>
         
       </div>
     );

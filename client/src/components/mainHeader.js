@@ -5,7 +5,7 @@ import scrollToComponent from 'react-scroll-to-component';
 class MainHeader extends Component {
   render() {
     return (
-      <div className='main'>
+      <div className='main' id='main'>
 
         
       </div>
