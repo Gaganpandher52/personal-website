@@ -9,12 +9,10 @@ const TopBar = ({  }) => {
   
 
   return (
-    <div className="main-container">
+    <div className="main-container" >
         
-        <span>
-          <img className="navbar-image" src={camera}></img>
-        </span>
-        <span>
+      <div>
+
         <Link
           activeClass="active"
           to="main"
@@ -22,12 +20,10 @@ const TopBar = ({  }) => {
           smooth={true}
           offset={-70}
           duration= {500}
-        >
-          <a class="active" href="#home" >
-            Home
-          </a>
+          >
+          Home
         </Link>
-        </span>
+        
         <span>
         <Link
           activeClass="active"
@@ -36,8 +32,8 @@ const TopBar = ({  }) => {
           smooth={true}
           offset={-70}
           duration= {500}
-        >
-          <a href="#news">Projects</a>
+          >
+          Projects
         </Link>
         </span>
         <span>
@@ -46,16 +42,8 @@ const TopBar = ({  }) => {
         <span>
           <a href="#about">About</a>
         </span>
-        <span>
-          <p className="signature">Made by Gaganpreet</p>
-        </span>
-        <span>
-          <img className="navbar-image-right" src={keyboard}></img>
-        </span>
-       
-        
-       
-      
+          
+      </div>
     </div>
   );
 };

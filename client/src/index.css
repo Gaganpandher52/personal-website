@@ -17,8 +17,10 @@ code {
 }
 
 .main-container{
-  background-color: black;
+  background-color: clear;
   overflow: hidden;
+  position: fixed;
+  width: 100%;
 }
 .main-container a{
   float: left;
