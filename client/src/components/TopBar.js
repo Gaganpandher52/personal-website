@@ -37,7 +37,16 @@ const TopBar = ({  }) => {
         </Link>
         </span>
         <span>
-          <a href="#contact">Contact</a>
+        <Link
+          activeClass="active"
+          to="contacts"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}
+          >
+          contact
+        </Link>
         </span>
         <span>
           <a href="#about">About</a>
