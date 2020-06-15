@@ -2,7 +2,6 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/Header";
 import NavBar from "./components/navbar/NavBar";
 import MainHeader from "./components/mainheader/MainHeader"
 import Projects from "./components/projects/Projects"
@@ -16,7 +15,6 @@ class App extends Component {
      
     };
   }
-  
   
   render() {
   

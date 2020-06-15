@@ -3,14 +3,13 @@ import scrollToComponent from 'react-scroll-to-component';
 import Mainheader from '../mainheader/MainHeader'
 import Projects from '../projects/Projects'
 import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import './navbar.css'
 const NavBar = ({  }) => {
   
 
   return (
     <div className="main-container" >
-        
       <div>
-
         <Link
           activeClass="active"
           to="main"
