@@ -1,11 +1,9 @@
 import React from "react";
-import camera from "../images/camera.png";
-import keyboard from "../images/keyboard.png";
 import scrollToComponent from 'react-scroll-to-component';
-import Mainheader from './MainHeader'
-import Projects from './Projects'
+import Mainheader from '../mainheader/MainHeader'
+import Projects from '../projects/Projects'
 import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-const TopBar = ({  }) => {
+const NavBar = ({  }) => {
   
 
   return (
@@ -49,7 +47,16 @@ const TopBar = ({  }) => {
         </Link>
         </span>
         <span>
-          <a href="#about">About</a>
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}
+          >
+          about
+        </Link>
         </span>
           
       </div>
@@ -57,4 +64,4 @@ const TopBar = ({  }) => {
   );
 };
 
-export default TopBar;
+export default NavBar;
