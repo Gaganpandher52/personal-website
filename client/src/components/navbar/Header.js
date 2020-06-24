@@ -15,7 +15,7 @@ class Header extends Component {
           <a href="#news">Projects</a>
           <a href="#contact">Contact</a>
           <a href="#about">About</a>
-          {/* <p className="signature">Made by Gaganpreet</p> */}
+          <p className="signature">Made by Gaganpreet</p>
           {/* <img className="navbar-image-right" src={keyboard}></img> */}
         </div>
       </div>
