@@ -4,3 +4,12 @@
   background-color: rgb(0, 65, 117);
 }
 
+.name-section p{
+  margin-top: 0;
+  padding-top: 200px;
+  padding-left: 100px;
+}
+.name-section h4{
+  /* padding-top: 200px; */
+  padding-left: 100px;
+}
