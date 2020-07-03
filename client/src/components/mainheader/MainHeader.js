@@ -9,7 +9,7 @@ class MainHeader extends Component {
         <div className='name-section'>
           <p>Hi, My name is </p>
           <h4>Gaganpreet Pandher.</h4>
-          <h4>I build things for the web.</h4>
+          {/* <h4>I build things for the web.</h4> */}
         </div>
       </div>
     );
