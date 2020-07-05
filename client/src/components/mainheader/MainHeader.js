@@ -10,6 +10,7 @@ class MainHeader extends Component {
           <p>Hi, My name is </p>
           <h4>Gaganpreet Pandher.</h4>
           <h4>I build things for the web.</h4>
+          <button>Get in touch</button>
         </div>
       </div>
     );

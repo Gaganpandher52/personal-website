@@ -20,7 +20,7 @@ const NavBar = ({  }) => {
             offset={-70}
             duration= {500}
             >
-            Home
+            Homes
           </Link>
           
           
