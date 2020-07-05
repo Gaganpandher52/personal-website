@@ -7,10 +7,11 @@ class MainHeader extends Component {
     return (
       <div className='main' id='main'>
         <div className='name-section'>
-          <p>Hi, My name is </p>
+          <p className='name'>Hi, My name is </p>
           <h4>Gaganpreet Pandher.</h4>
-          <h4>I build things for the web.</h4>
-          <button>Get in touch</button>
+          <h4 className=''>I build things for the web.</h4>
+          <p className='summary'>I am a software developer based in Calgary.</p>
+          <button className='button_touch'>Get in touch</button>
         </div>
       </div>
     );
