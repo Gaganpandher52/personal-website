@@ -59,6 +59,7 @@ const NavBar = ({  }) => {
               about
             </Link>
           </li>
+        <button className='button_touch_navbar'> Resume </button>
         </ol>
       </div>
     </div>

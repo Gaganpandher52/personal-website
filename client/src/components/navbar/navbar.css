@@ -6,22 +6,38 @@
   height: 100px;
   
 }
+.main-contents{
+  margin-top: 30px;
+  margin-right: 20px;
+
+}
 .main-container a{
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  /* font-size: 15px; */
   cursor: pointer;
 }
 .main-container ol{
   display: flex;
   float: right;
+  
 }
 .main-container li{
   position: relative;
   margin: 0px 10px;
   counter-increment: item 1;
+  
+}
+.button_touch_navbar{
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  padding: 12px;
+  /* margin-left: 100px; */
+  align-content: center;
+  margin-top:-9px;
+  background-color: clear;
+  cursor: pointer;
 }
 .signature {
   float: right;
@@ -41,3 +57,4 @@
 .app-container-full{
   background-color: black;
 }
+
