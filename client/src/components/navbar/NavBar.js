@@ -44,7 +44,7 @@ const NavBar = ({  }) => {
               offset={-70}
               duration= {500}
               >
-              contact
+              Contact
             </Link>
           </li>
           <li>
@@ -56,7 +56,7 @@ const NavBar = ({  }) => {
               offset={-70}
               duration= {500}
               >
-              about
+              About
             </Link>
           </li>
         <button className='button_touch_navbar'> Resume </button>
