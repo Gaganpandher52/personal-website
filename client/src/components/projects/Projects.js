@@ -5,7 +5,14 @@ class Projects extends Component {
   render() {
     return (
       <div className='main-projects' id='projects'>
-        <h4>Projects</h4>
+        <div className='main-content-container'>
+          <h4>Projects</h4>
+          <div className='project-column'>
+            
+
+          </div>
+
+        </div>
         
       </div>
     );

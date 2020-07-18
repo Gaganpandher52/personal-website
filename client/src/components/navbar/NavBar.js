@@ -14,18 +14,6 @@ const NavBar = ({  }) => {
           <li>
             <Link
               activeClass="active"
-              to="main"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration= {500}
-              >
-              Homes
-            </Link>
-          </li>
-          <li>
-            <Link
-              activeClass="active"
               to="projects"
               spy={true}
               smooth={true}
