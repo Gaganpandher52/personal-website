@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div className='main-about' id='about'>
         <div className='main-content-container'>
-          <h4>About-------------</h4>
+          <h4>About<hr className='hr_line'></hr></h4>
           <p className='about_summary'>I am a software developer based in Calgary.</p>
           <p className='about_summary'>
           Improved my problem solving skills through education experiences. 

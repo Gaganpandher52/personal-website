@@ -5,4 +5,7 @@
   padding: 10px;  
   line-height:2.2em;
 }
-
+.hr_line{
+  margin-right: 100px;
+  border-color:rgb(107, 110, 117);
+}

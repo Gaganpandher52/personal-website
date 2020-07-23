@@ -14,7 +14,7 @@ class Projects extends Component {
     return (
       <div className='main-projects' id='projects'>
         <div className='main-content-container'>
-          <h4>Projects</h4>
+          <h4>Projects<hr className='hr_line'></hr></h4>
           <div className='projects-column'>
             
           </div>
