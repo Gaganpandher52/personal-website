@@ -14,6 +14,12 @@ class About extends Component {
           Enjoy keeping up with latest programming/tech information 
           and technologies to advance as a developer.</p>
           <p className='about_summary'>Here are a few technologies I've been working with recently:</p>
+          <ul className='about_summary'>
+            <li>JavaScript (ES6+)</li>
+            <li>HTML & CSS</li>
+            <li>React</li>
+            <li>Node.js</li>
+          </ul>
         </div>
 
         
