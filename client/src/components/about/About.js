@@ -20,7 +20,7 @@ class About extends Component {
             <li>HTML & CSS</li>
             </div>
             <div>
-            <li>React</li>
+            <li>ReactJs</li>
             <li>Node.js</li>
             </div>
           </ul>
