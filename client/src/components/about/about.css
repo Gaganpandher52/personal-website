@@ -1,7 +1,7 @@
 .about_summary{
   margin-left: 100px;
   width: 400px;
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   padding: 10px;  
   line-height:2.2em;
 }
