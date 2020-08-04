@@ -4,6 +4,7 @@ import Mainheader from '../mainheader/MainHeader'
 import Projects from '../projects/Projects'
 import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import './navbar.css'
+import { ResumePdf } from './ResumePdf.js'
 const NavBar = ({  }) => {
   
 
@@ -47,7 +48,8 @@ const NavBar = ({  }) => {
               About
             </Link>
           </li>
-        <button className='button_touch_navbar'> Resume </button>
+        {/* <button className='button_touch_navbar'><a href="creddleNewApr20.pdf" target="pdf-frame"></a> Resume </button> */}
+        <a href="/creddleNewApr20.pdf" target="_blank" rel="nofollow noopener noreferrer" class="nav__StyledResumeButton-ghklvd-10 jXamAq">Resume</a>
         </ol>
       </div>
     </div>
