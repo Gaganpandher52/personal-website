@@ -49,7 +49,9 @@ const NavBar = ({  }) => {
             </Link>
           </li>
         {/* <button className='button_touch_navbar'><a href="creddleNewApr20.pdf" target="pdf-frame"></a> Resume </button> */}
-        <a href={ResumePdf} target="_blank" rel="nofollow noopener noreferrer" class="nav__StyledResumeButton-ghklvd-10 jXamAq">Resume</a>
+        <button className='button_touch_navbar'>
+        <a style={{'color':'black'}}href={ResumePdf} target="_blank" rel="nofollow noopener noreferrer" class="nav__StyledResumeButton-ghklvd-10 jXamAq">Resume</a>
+        </button>
         </ol>
       </div>
     </div>
