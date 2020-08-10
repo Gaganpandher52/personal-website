@@ -22,6 +22,7 @@ class About extends Component {
             <div>
             <li>ReactJs</li>
             <li>Node.js</li>
+            <li>Vue.js</li>
             </div>
           </ul>
         </div>
