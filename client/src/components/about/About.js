@@ -26,9 +26,11 @@ class About extends Component {
             </div>
           </ul>
         </div>
-
-        
+        <div>
+        <img></img>
+        </div>
       </div>
+      
     );
   }
 }
