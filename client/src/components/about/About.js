@@ -16,13 +16,15 @@ class About extends Component {
           <p className='about_summary'>Here are a few technologies I've been working with recently:</p>
           <ul className='about_summary'style={{'display':'flex','flex-direction': 'row'}}>
             <div>
-            <li>JavaScript</li>
-            <li>HTML & CSS</li>
-            </div>
-            <div>
-            <li>ReactJs</li>
-            <li>Node.js</li>
-            <li>Vue.js</li>
+              <div>
+              <li>JavaScript</li>
+              <li>HTML & CSS</li>
+              </div>
+              <div>
+              <li>ReactJs</li>
+              <li>Node.js</li>
+              <li>Vue.js</li>
+              </div>
             </div>
           </ul>
         </div>
