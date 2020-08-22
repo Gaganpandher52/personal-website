@@ -16,6 +16,7 @@ class Projects extends Component {
         <div className='main-content-container'>
           <h4>Projects<hr className='hr_line'></hr></h4>
           <div className='projects-column'>
+            <p>Project 1</p>
             
           </div>
 
