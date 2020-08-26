@@ -5,7 +5,7 @@ class Projects extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: ['Project 1', 'Project 2','Project 3', 'Project 4']
+      data: ['Project 1', 'Project 2']
      
     };
   }
@@ -15,13 +15,16 @@ class Projects extends Component {
       <div className='main-projects' id='projects'>
         <div className='main-content-container'>
           <h4>Projects<hr className='hr_line'></hr></h4>
-          <div className='projects-column'>
-            {this.state.data.map(data=>{
-              
-
-            })}
+          
+          <div className='projects-column-wrap'>
+            {this.state.data.map((data,i)=>{
+             return (
+                 <div className='projects-column'></div>
+                 )
+                })}
             
           </div>
+          
 
 
         </div>
