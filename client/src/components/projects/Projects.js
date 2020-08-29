@@ -6,6 +6,7 @@ class Projects extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      //data from projects
       data: ['Project 1', 'Project 2','Project 3', 'Project 4']
      
     };
