@@ -19,7 +19,7 @@ class Projects extends Component {
           <h4>Projects<hr className='hr_line'></hr></h4>
           
           <div className='projects-column-wrap'>
-            
+            {/* mapping the data array */}
             {this.state.data.map((data,i)=>{
              return (
               <div className='projects-column'>
