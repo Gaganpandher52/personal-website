@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <div className="app-container-main">
         <NavBar/>
-        <SideBar/>
+        {/* <SideBar/> */}
         <MainHeader/>
         <Projects/>
         <About/>
