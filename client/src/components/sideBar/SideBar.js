@@ -7,7 +7,7 @@ class SideBar extends Component {
         <div orientation="left">
           <ul>
             <li>Github</li>
-            <li>LinkedIn</li>
+            <li>Linkedin</li>
             <li></li>
             
           </ul>
