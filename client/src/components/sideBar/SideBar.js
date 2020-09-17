@@ -9,6 +9,7 @@ class SideBar extends Component {
             <li>Github</li>
             <li>Linkedin</li>
             <li></li>
+            <li></li>
             
           </ul>
 
