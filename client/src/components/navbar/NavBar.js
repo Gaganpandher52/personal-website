@@ -48,7 +48,6 @@ const NavBar = ({  }) => {
               About
             </Link>
           </li>
-        
         <button className='button_touch_navbar'>
         <a style={{'color':'black'}}href={ResumePdf} target="_blank" rel="nofollow noopener noreferrer" class="nav__StyledResumeButton-ghklvd-10 jXamAq">Resume</a>
         </button>
