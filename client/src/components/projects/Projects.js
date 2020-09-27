@@ -7,7 +7,8 @@ class Projects extends Component {
     super(props);
     this.state = {
       //data from projects
-      data: ['Project 1', 'Project 2','Project 3', 'Project 4']
+      data: ['Project 1', 'Project 2','Project 3', 'Project 4'],
+      projectInfo:[]
      
     };
   }
