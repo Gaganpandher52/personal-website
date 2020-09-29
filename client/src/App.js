@@ -7,6 +7,7 @@ import MainHeader from "./components/mainheader/MainHeader"
 import Projects from "./components/projects/Projects"
 import About from "./components/about/About"
 import SideBar from "./components/sideBar/SideBar"
+import Footer from "./components/footer/Footer"
 import scrollToComponent from 'react-scroll-to-component';
 import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
@@ -28,6 +29,7 @@ class App extends Component {
         <MainHeader/>
         <Projects/>
         <About/>
+        <Footer/>
       </div>
     );
   }
