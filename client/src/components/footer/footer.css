@@ -5,9 +5,16 @@
   text-align: center;
 }
 
-.section-main p {
-  
-  
+.section-main p{
+  line-height:1.5em;
   
 }
+
+.section-main h2{
+  font-size: 30px;
+  /* margin-left: 100px; */
+  color: rgb(82, 77, 72);
+
+}
+
 
