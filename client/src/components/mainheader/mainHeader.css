@@ -1,7 +1,7 @@
 .main{
   height: 600px;
   width: auto;
-  background: linear-gradient(90deg, rgba(89,0,255,1) 0%, rgba(72,196,185,1) 0%, rgba(140,202,231,1) 29%);
+  /* background: linear-gradient(90deg, rgba(89,0,255,1) 0%, rgba(72,196,185,1) 0%, rgba(140,202,231,1) 29%); */
 }
 
 .name {

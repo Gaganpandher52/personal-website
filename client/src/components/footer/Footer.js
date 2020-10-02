@@ -15,7 +15,7 @@ class Footer extends Component {
         </section>
         <a className='last_footer' href='https://github.com/Gaganpandher52'>
           <div>
-            Designed & built by Gaganpreet Pandher  
+            Designed & built by Gaganpreet Pandher
           </div>
         </a>
         </div>
